@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriExim - Premium Import & Export</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2><i class="fas fa-seedling"></i> AgriExim</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#shop" class="nav-link">Shop</a></li>
+                <li><a href="#cart" class="nav-link">Cart</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider Section -->
+    <section id="home" class="hero">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="images/organic-turmeric.jpg" alt="Organic Turmeric Export">
+                    <div class="slide-content">
+                        <h1>Premium Organic Turmeric</h1>
+                        <p>India's finest turmeric exported globally with superior curcumin content</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/basmati-rice.jpg" alt="Basmati Rice Export">
+                    <div class="slide-content">
+                        <h1>Aged Basmati Rice</h1>
+                        <p>Long-grain aromatic rice from the foothills of Himalayas</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/kashmiri-saffron.jpg" alt="Kashmiri Saffron">
+                    <div class="slide-content">
+                        <h1>Pure Kashmiri Saffron</h1>
+                        <p>World's most premium saffron with rich color and aroma</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/black-pepper.jpg" alt="Black Pepper">
+                    <div class="slide-content">
+                        <h1>Malabar Black Pepper</h1>
+                        <p>King of spices with intense flavor and pungency</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/cardamom.jpg" alt="Green Cardamom">
+                    <div class="slide-content">
+                        <h1>Premium Green Cardamom</h1>
+                        <p>Queen of spices with exquisite aroma and flavor</p>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            <div class="slider-dots"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Premium Products</h2>
+            <p class="section-subtitle">High-quality agricultural exports from India</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/organic-turmeric.jpg" alt="Organic Turmeric">
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Turmeric (Indian)</h3>
+                        <p class="product-description">High-curcumin organic turmeric from Andhra Pradesh</p>
+                        <div class="product-meta">
+                            <span class="price">₹500/kg</span>
+                            <span class="origin"><i class="fas fa-map-marker-alt"></i> Andhra Pradesh</span>
+                        </div>
+                        <button class="add-to-cart" data-product="Organic Turmeric" data-price="5.24658971">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/basmati-rice.jpg" alt="Basmati Rice">
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>1121 Basmati Rice</h3>
+                        <p class="product-description">Extra-long grain basmati rice from Punjab</p>
+                        <div class="product-meta">
+                            <span class="price">₹60/kg</span>
+                            <span class="origin"><i class="fas fa-map-marker-alt"></i> Punjab</span>
+                        </div>
+                        <button class="add-to-cart" data-product="Basmati Rice" data-price="0.629590">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/kashmiri-saffron.jpg" alt="Kashmiri Saffron">
+                        <div class="product-badge">Limited</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kashmiri Saffron</h3>
+                        <p class="product-description">Premium grade saffron from Pampore, Kashmir</p>
+                        <div class="product-meta">
+                            <span class="price">₹4000/10g</span>
+                            <span class="origin"><i class="fas fa-map-marker-alt"></i> Kashmir</span>
+                        </div>
+                        <button class="add-to-cart" data-product="Kashmiri Saffron" data-price="41.9727177">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/black-pepper.jpg" alt="Black Pepper">
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Malabar Black Pepper</h3>
+                        <p class="product-description">Premium black pepper from Keralam with bold flavor</p>
+                        <div class="product-meta">
+                            <span class="price">₹1000/kg</span>
+                            <span class="origin"><i class="fas fa-map-marker-alt"></i> Keralam</span>
+                        </div>
+                        <button class="add-to-cart" data-product="Black Pepper" data-price="10.493179">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/cardamom.jpg" alt="Green Cardamom">
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Green Cardamom (Elaichi)</h3>
+                        <p class="product-description">Premium green cardamom from Idukki, Keralam</p>
+                        <div class="product-meta">
+                            <span class="price">₹2000/kg</span>
+                            <span class="origin"><i class="fas fa-map-marker-alt"></i> Keralam</span>
+                        </div>
+                        <button class="add-to-cart" data-product="Green Cardamom" data-price="20.9863588">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/cloves.jpg" alt="Cloves">
+                        <div class="product-badge">Limited</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Cloves (Laung)</h3>
+                        <p class="product-description">High-oil content cloves from Tamil Nadu</p>
+                        <div class="product-meta">
+                            <span class="price">₹1500/kg</span>
+                            <span class="origin"><i class="fas fa-map-marker-alt"></i> Tamil Nadu</span>
+                        </div>
+                        <button class="add-to-cart" data-product="Premium Cloves" data-price="15.739769">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Our Certifications</h2>
+            <p class="section-subtitle">Quality standards and certifications we maintain</p>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>ISO 9001:2015</h3>
+                    <p>Quality Management System certification ensuring consistent quality in our products and services</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>USDA Organic</h3>
+                    <p>USDA Organic certification for our organic product line, ensuring chemical-free produce</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Fair Trade</h3>
+                    <p>Fair Trade certified products ensuring ethical sourcing and fair wages for farmers</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Global G.A.P.</h3>
+                    <p>Global Good Agricultural Practices certification for safe and sustainable farming</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>HACCP</h3>
+                    <p>Hazard Analysis Critical Control Points certification for food safety management</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Sustainable Sourcing</h3>
+                    <p>Committed to environmentally responsible and sustainable sourcing practices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <h2 class="section-title">Shop Our Collection</h2>
+            <p class="section-subtitle">Explore our complete product range</p>
+            <div class="shop-grid">
+                <div class="shop-item">
+                    <img src="images/spices-collection.jpg" alt="Spices Collection">
+                    <h4>Spices & Herbs</h4>
+                    <p>100+ varieties of premium spices</p>
+                </div>
+                <div class="shop-item">
+                    <img src="images/grains-pulses.jpg" alt="Grains and Pulses">
+                    <h4>Grains & Pulses</h4>
+                    <p>Premium quality rice, wheat & lentils</p>
+                </div>
+                <div class="shop-item">
+                    <img src="images/dried-fruits.jpg" alt="Dried Fruits">
+                    <h4>Dried Fruits</h4>
+                    <p>Natural & organic dried fruits</p>
+                </div>
+                <div class="shop-item">
+                    <img src="images/tea-coffee.jpg" alt="Tea and Coffee">
+                    <h4>Tea & Coffee</h4>
+                    <p>Fine blends from around the world</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="cart">
+        <div class="container">
+            <h2 class="section-title">Your Cart</h2>
+            <p class="section-subtitle">Review your items before checkout</p>
+            <div class="cart-container">
+                <div class="cart-items">
+                    <p class="empty-cart">Your cart is empty</p>
+                </div>
+                <div class="cart-total">
+                    <div class="total-breakdown">
+                        <h3>Total (Including GST & Tax)</h3>
+                        <div class="total-row">
+                            <span>USD:</span>
+                            <span class="total-usd">$<span id="cart-total">0.00</span></span>
+                        </div>
+                        <div class="total-row inr-row">
+                            <span>INR:</span>
+                            <span class="total-inr">₹<span id="cart-total-inr">0</span></span>
+                        </div>
+                        <div class="exchange-rate">
+                            <small>Exchange Rate: 1 USD = ₹95</small>
+                        </div>
+                    </div>
+                    <button class="checkout-btn">
+                        <i class="fas fa-shopping-bag"></i> Proceed to Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Express Form -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Express Form</h2>
+            <p class="section-subtitle">Get in touch with our trade experts</p>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 8431875444</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@agriexim.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Bengaluru</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM EST</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-seedling"></i> AgriExim</h3>
+                    <p>Your trusted partner in international agricultural trade</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.7;">
+                        <i class="fas fa-map-pin"></i> Import & Export since 2005
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="#products">Spices</a></li>
+                        <li><a href="#products">Rice & Grains</a></li>
+                        <li><a href="#products">Saffron</a></li>
+                        <li><a href="#products">Dried Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p style="margin-top: 0.75rem; font-size: 0.85rem; opacity: 0.7;">
+                        <i class="fas fa-envelope"></i> info@agriexim.com
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AgriExim. All rights reserved. | Import & Export Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
