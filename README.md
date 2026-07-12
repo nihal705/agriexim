@@ -1,4 +1,4 @@
-# 🌾 AgriExim - Import & Export Business Website
+# AgriExim - Import & Export Business Website
 
 A modern, responsive web application for an agricultural import-export business showcasing premium spices, grains, and organic products.
 
