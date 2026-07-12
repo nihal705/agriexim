@@ -3,7 +3,7 @@
 A modern, responsive web application for an agricultural import-export business showcasing premium spices, grains, and organic products.
 
 ## 🚀 Live Demo
-[View Live Demo](https://your-vercel-url.vercel.app)
+[View Live Demo](https://agriexim.vercel.app)
 
 ## 📋 Table of Contents
 - [Features](#features)
@@ -46,6 +46,7 @@ A modern, responsive web application for an agricultural import-export business 
 - **Vercel** - Hosting & Deployment
 
 ## 📁 Project Structure
+```bash
 agriexim/
 ├── index.html
 ├── vercel.json
@@ -63,8 +64,7 @@ agriexim/
     ├── grains-pulses.jpg
     ├── dried-fruits.jpg
     └── tea-coffee.jpg
-
-text
+```
 
 ## 🚀 Quick Start
 
@@ -92,6 +92,7 @@ Click "Add New Project"
 Import your GitHub repository
 
 Click "Deploy" 
+```
 
 🎨 Customization
 Change Colors
