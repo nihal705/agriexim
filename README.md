@@ -95,6 +95,7 @@ Click "Deploy"
 ```
 
 🎨 Customization
+```bash
 Change Colors
 Edit css/style.css:
 
@@ -104,7 +105,9 @@ css
     --secondary: #5ba3b5;   /* Accent color */
     --accent: #d4923a;      /* Highlight color */
 }
+```
 
+```bash
 Update Exchange Rate
 Edit script.js:
 
@@ -112,6 +115,7 @@ javascript
 const USD_TO_INR = 95.30; // Current exchange rate
 Add Products
 Duplicate a product card in index.html and update the content.
+```
 
 📱 Responsive Design
 Works on:
@@ -123,7 +127,9 @@ Tablet (768px - 1024px)
 Mobile (320px - 768px)
 
 📄 License
+
 MIT License - Free to use and modify
 
 👨‍💻 Author
+
 G Nihal - https://github.com/nihalmohammad705-debug
