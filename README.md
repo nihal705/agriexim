@@ -2,10 +2,10 @@
 
 A modern, responsive web application for an agricultural import-export business showcasing premium spices, grains, and organic products.
 
-## 🚀 Live Demo
+## Live Demo
 [View Live Demo](https://agriexim.vercel.app)
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -16,7 +16,7 @@ A modern, responsive web application for an agricultural import-export business 
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✨ Features
+## Features
 
 ### Core Features
 - ✅ **Responsive Navigation** - Mobile-first design with hamburger menu
@@ -66,7 +66,7 @@ agriexim/
     └── tea-coffee.jpg
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone or Download
 ```bash
@@ -75,8 +75,9 @@ cd agriexim
 
 (Optional) Run with Live Server
 If using VS Code, install Live Server extension and click "Go Live".
+```
 
-# 🚀 Deploy to Vercel
+# Deploy to Vercel
 
 ### Quick Deploy (1 Minute)
 
@@ -94,7 +95,7 @@ Import your GitHub repository
 Click "Deploy" 
 ```
 
-🎨 Customization
+## Customization
 ```bash
 Change Colors
 Edit css/style.css:
@@ -117,7 +118,7 @@ Add Products
 Duplicate a product card in index.html and update the content.
 ```
 
-📱 Responsive Design
+## Responsive Design
 Works on:
 
 Desktop (1024px+)
@@ -126,10 +127,10 @@ Tablet (768px - 1024px)
 
 Mobile (320px - 768px)
 
-📄 License
+## License
 
 MIT License - Free to use and modify
 
-👨‍💻 Author
+## Author
 
 G Nihal - https://github.com/nihalmohammad705-debug
