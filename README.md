@@ -5,38 +5,27 @@ A modern, responsive web application for an agricultural import-export business 
 ## Live Demo
 [View Live Demo](https://agriexim.vercel.app)
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation & Setup](#installation--setup)
-- [Deployment](#deployment)
-- [Image Requirements](#image-requirements)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 ### Core Features
-- ✅ **Responsive Navigation** - Mobile-first design with hamburger menu
-- ✅ **Auto-Scrolling Hero Slider** - 5 slides with smooth transitions
-- ✅ **Product Catalog** - Display products with images, prices, and origin
-- ✅ **Shopping Cart** - Add/remove items with real-time price updates
-- ✅ **Dual Currency Support** - USD and INR prices with live exchange rates
-- ✅ **Contact Form** - With client-side validation
-- ✅ **Certifications Section** - Showcase quality standards
-- ✅ **Shop Categories** - Browse products by category
+- **Responsive Navigation** - Mobile-first design with hamburger menu
+- **Auto-Scrolling Hero Slider** - 5 slides with smooth transitions
+- **Product Catalog** - Display products with images, prices, and origin
+- **Shopping Cart** - Add/remove items with real-time price updates
+- **Dual Currency Support** - USD and INR prices with live exchange rates
+- **Contact Form** - With client-side validation
+- **Certifications Section** - Showcase quality standards
+- **Shop Categories** - Browse products by category
 
 ### Technical Features
-- ✅ Pure HTML, CSS, JavaScript (No frameworks)
-- ✅ Mobile-first responsive design
-- ✅ Cross-browser compatible
-- ✅ SEO-friendly structure
-- ✅ Clean, professional UI
-- ✅ Accessible color scheme
+- Pure HTML, CSS, JavaScript (No frameworks)
+- Mobile-first responsive design
+- Cross-browser compatible
+- SEO-friendly structure
+- Clean, professional UI
+- Accessible color scheme
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** - Semantic markup
 - **CSS3** - Custom styling with CSS variables
@@ -77,21 +66,17 @@ cd agriexim
 If using VS Code, install Live Server extension and click "Go Live".
 ```
 
-# Deploy to Vercel
+### Deploy to Vercel
 
-### Quick Deploy (1 Minute)
-
-1. Push your code to GitHub:
 ```bash
+1. Push your code to GitHub:
 git add .
 git commit -m "Deploy to Vercel"
 git push
-Go to vercel.com
 
+2. Go to vercel.com
 Click "Add New Project"
-
 Import your GitHub repository
-
 Click "Deploy" 
 ```
 
