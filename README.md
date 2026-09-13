@@ -3,22 +3,23 @@
 A modern, responsive web application for an agricultural import-export business showcasing premium spices, grains, and organic products.
 
 ## Live Demo
+
 [View Live Demo](https://agriexim.vercel.app)
 
 ## Features
 
 ### Core Features
-- **Responsive Navigation** - Mobile-first design with hamburger menu
-- **Auto-Scrolling Hero Slider** - 5 slides with smooth transitions
-- **Product Catalog** - Display products with images, prices, and origin
-- **Shopping Cart** - Add/remove items with real-time price updates
-- **Dual Currency Support** - USD and INR prices with live exchange rates
-- **Contact Form** - With client-side validation
-- **Certifications Section** - Showcase quality standards
-- **Shop Categories** - Browse products by category
+- **Responsive Navigation** — Mobile-first design with hamburger menu
+- **Auto-Scrolling Hero Slider** — 5 slides with smooth transitions
+- **Product Catalog** — Display products with images, prices, and origin
+- **Shopping Cart** — Add/remove items with real-time price updates
+- **Dual Currency Support** — USD and INR prices with live exchange rates
+- **Contact Form** — With client-side validation
+- **Certifications Section** — Showcase quality standards
+- **Shop Categories** — Browse products by category
 
 ### Technical Features
-- Pure HTML, CSS, JavaScript (No frameworks)
+- Pure HTML, CSS, JavaScript (no frameworks)
 - Mobile-first responsive design
 - Cross-browser compatible
 - SEO-friendly structure
@@ -27,15 +28,16 @@ A modern, responsive web application for an agricultural import-export business 
 
 ## Technologies Used
 
-- **HTML5** - Semantic markup
-- **CSS3** - Custom styling with CSS variables
-- **JavaScript (ES6)** - Interactive features
-- **Font Awesome** - Icons
-- **Google Fonts** - Inter font family
-- **Vercel** - Hosting & Deployment
+- **HTML5** — Semantic markup
+- **CSS3** — Custom styling with CSS variables
+- **JavaScript (ES6)** — Interactive features
+- **Font Awesome** — Icons
+- **Google Fonts** — Inter font family
+- **Vercel** — Hosting & deployment
 
 ## 📁 Project Structure
-```bash
+
+```text
 agriexim/
 ├── index.html
 ├── vercel.json
@@ -59,33 +61,36 @@ agriexim/
 
 ### 1. Clone or Download
 ```bash
-git clone https://github.com/nihalmohammad705-debug/agriexim.git
+git clone https://github.com/nihal705/agriexim.git
 cd agriexim
-
-(Optional) Run with Live Server
-If using VS Code, install Live Server extension and click "Go Live".
 ```
 
-### Deploy to Vercel
+### 2. Run Locally
 
-```bash
+If using VS Code, install the **Live Server** extension and click **"Go Live"**.
+
+## Deploy to Vercel
+
 1. Push your code to GitHub:
-git add .
-git commit -m "Deploy to Vercel"
-git push
 
-2. Go to vercel.com
-Click "Add New Project"
-Import your GitHub repository
-Click "Deploy" 
-```
+   ```bash
+   git add .
+   git commit -m "Deploy to Vercel"
+   git push
+   ```
+
+2. Go to [vercel.com](https://vercel.com)
+3. Click **"Add New Project"**
+4. Import your GitHub repository
+5. Click **"Deploy"**
 
 ## Customization
-```bash
-Change Colors
-Edit css/style.css:
 
-css
+### Change Colors
+
+Edit `css/style.css`:
+
+```css
 :root {
     --primary: #2e7d5a;     /* Main color */
     --secondary: #5ba3b5;   /* Accent color */
@@ -93,29 +98,30 @@ css
 }
 ```
 
-```bash
-Update Exchange Rate
-Edit script.js:
+### Update Exchange Rate
 
-javascript
+Edit `script.js`:
+
+```javascript
 const USD_TO_INR = 95.30; // Current exchange rate
-Add Products
-Duplicate a product card in index.html and update the content.
 ```
 
+### Add Products
+
+Duplicate a product card in `index.html` and update the content.
+
 ## Responsive Design
+
 Works on:
 
-Desktop (1024px+)
-
-Tablet (768px - 1024px)
-
-Mobile (320px - 768px)
+- Desktop (1024px+)
+- Tablet (768px – 1024px)
+- Mobile (320px – 768px)
 
 ## License
 
-MIT License - Free to use and modify
+MIT License — free to use and modify.
 
 ## Author
 
-G Nihal - https://github.com/nihalmohammad705-debug
+[G Nihal](https://github.com/nihal705)
